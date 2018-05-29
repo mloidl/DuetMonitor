@@ -1,0 +1,11 @@
+[Unit]
+Description=Script for monitoring Duet Status
+After=multi-user.target
+
+[Service]
+User=pi
+Type=idle
+ExecStart=/usr/bin/python3 /home/pi/bin/duetmonitor.py
+
+[Install]
+WantedBy=multi-user.target
