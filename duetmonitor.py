@@ -54,7 +54,7 @@ def main(argv):
                         # turn light on
                         switchLight(255)
                         # make sure it's on => wait 5sec
-                        time.sleep(5)
+                        time.sleep(15)
                     # take a photo
                     files = getImage()
 
